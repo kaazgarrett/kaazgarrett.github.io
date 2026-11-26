@@ -1,23 +1,32 @@
-# Kaaz demo website
+# Kaaz Garrett — personal portfolio
 
-A responsive, static demo landing page for Kaaz, built with HTML and CSS.
+A responsive, static portfolio based on the supplied website and brand references. Built with HTML, CSS, and a small mobile-navigation script. No dependencies or build step required.
 
-## Preview locally
+- Website: <https://kaazgarrett.github.io/>
+- Repository: <https://github.com/kaazgarrett/kaazgarrett.github.io>
 
-Run `python3 -m http.server 8000` from this directory and open <http://localhost:8000>.
+## Preview
 
-No installation or build step is required. Google Fonts are optional; the page falls back to system sans-serif fonts when offline.
+Run `python3 -m http.server 8000` and open <http://localhost:8000>.
 
-## Customize
+## Content and assets
 
-- Edit `index.html` to update the copy, navigation, and contact email.
-- Edit `styles.css` to update colors, typography, and layout.
-- Demo content is illustrative. Replace it with real content before using this as a business website.
+- The plum, lavender, rose, and cream palette and Playfair Display / Inter pairing follow the supplied brand concept.
+- Biography, role names, and project summaries are adapted from the supplied portfolio outline. Dates and unverified impact statistics are omitted pending the actual résumé.
+- `assets/kaaz-portrait.jpg` and `assets/architecture.jpg` are web-sized crops of the user-supplied JPG. The original photo remains unchanged. Metadata is not copied into the public assets.
+- The HEIC attachment was not used because its JPEG conversion rendered black.
+- Instagram links to <https://www.instagram.com/floweravekaaz/>.
+- Google Fonts are optional; Georgia and Arial are the fallback fonts.
 
-## Hosting
+## Details to add
 
-Repository: <https://github.com/kaazgarrett/kaazgarrett.github.io>
+1. Real project, publication, and podcast URLs: replace the “link coming soon” text in each work card with a link.
+2. Final résumé PDF: add it under `assets/` and replace “Request my résumé” with a download link.
+3. LinkedIn URL: replace the noninteractive placeholder in the contact section.
+4. Final biography, dates, role details, and verified impact statistics.
 
-Live website: <https://kaazgarrett.github.io/>
+Missing assets are labeled honestly rather than represented by broken downloads or invented URLs. Résumé requests currently open an email to `kaazgarrett@gmail.com`.
 
-The repository name `kaazgarrett.github.io` follows GitHub Pages' convention for a user website. The publishing source is the `main` branch and `/ (root)` folder.
+## Deployment
+
+GitHub Pages serves the `main` branch and `/ (root)` folder. Push changes to `main` to update the live website.
