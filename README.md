@@ -16,4 +16,8 @@ No installation or build step is required. Google Fonts are optional; the page f
 
 ## Hosting
 
-The site is compatible with GitHub Pages. Set the publishing source to the `main` branch and `/ (root)` folder.
+Repository: <https://github.com/kaazgarrett/kaazgarrett.github.io>
+
+Live website: <https://kaazgarrett.github.io/>
+
+The repository name `kaazgarrett.github.io` follows GitHub Pages' convention for a user website. The publishing source is the `main` branch and `/ (root)` folder.
